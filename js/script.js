@@ -41,7 +41,6 @@ jQuery(document).ready(function ($) {
 	//Cache some variables
 	var links = $('.nav').find('li');
 	slide = $('.slide');
-	button = $('.button');
 	mywindow = $(window);
 	htmlbody = $('html,body');
 
