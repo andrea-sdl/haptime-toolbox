@@ -1,15 +1,13 @@
 
 function menu_focus( element, i ) {
 	if ( $(element).hasClass('active') ) {
-		if ( i == 6 ) {
-			if ( $('.navbar').hasClass('inv') == false )
-				return;
-		} else {
-			return;
-		}
-	}
-
-
+        if (i == 6) {
+            if ($('.navbar').hasClass('inv') == false)
+                return;
+        } else {
+            return;
+        }
+    }
 
 	if ( i == 1 || i == 6 )
 		$('.navbar').removeClass('inv');
