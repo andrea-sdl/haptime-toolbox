@@ -6,7 +6,7 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+
 .font-thin {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
@@ -145,36 +145,36 @@ body {
 }
 
 @media (max-width: 767px) {
-	
+
 	.nav li {
 		text-align: left;
 		white-space: nowrap;
 	}
-	
+
 	.navbar-responsive-collapse  {
 		width: 100%;
 	}
-	
+
 	.active-menu {
 		display: none !important;
 	}
-	
+
 	.navbar-toggle {
 		margin-right: 10px;
 	}
-	
+
 	.navbar {
 		background-color: #white !important;
 		padding: 0;
         color:#444
 	}
-	
+
 	.navbar .nav a {
 		color: #444;
 		font-size: 16px;
 		padding-left: 0;
 	}
-	
+
 	.icon {
 		margin-right: 12px;
 	}
@@ -186,23 +186,23 @@ body {
 	.nav li[data-slide="6"] {
 		background-color: #2f2f2f;
 	}
-	
+
 	.nav li[data-slide="2"] {
 		background-color: rgb(208, 246, 241);
 	}
-	
+
 	.nav li[data-slide="3"] {
 		background-color: #ffe5d2;
 	}
-	
+
 	.nav li[data-slide="4"] {
 		background-color: #fff8c5;
 	}
-	
+
 	.nav li[data-slide="5"] {
 		background-color: #eaa621;
 	}
-	
+
 	.navbar-brand {
 		margin: 0;
 		text-align: left;
@@ -260,31 +260,31 @@ body {
 	#home-row-2 {
 		padding-top: 25px;
 	}
-	
+
 	#home-row-1 h1 {
 		font-size: 54px;
 	}
-	
+
 	#home-row-1 h4 {
 		font-size: 32px;
 	}
-	
+
 	#home-row-2 {
 		font-size: 25px;
 	}
-	
+
 	#home-row-2 .col-12 {
 		height: 232px;
 		padding-top: 30px;
 	}
-	
+
 	#home-row-2 .col-12 .home-hover {
 		height: 130px;
 		overflow: hidden;
 		padding-top: 26px;
 		transition: all ease-in .5s;
 	}
-	
+
 	#home-row-2 .col-12 .home-hover:hover {
 		height: 130px;
 		padding-top: 0;
@@ -295,15 +295,15 @@ body {
 	#home-row-2 {
 		padding-top: 16px;
 	}
-	
+
 	#home-row-1 h1 {
 		font-size: 35px;
 	}
-	
+
 	#home-row-1 h4 {
 		font-size: 21px;
 	}
-	
+
 	#home-row-2 {
 		font-size: 16px;
 	}
@@ -319,24 +319,24 @@ body {
 		font-size: 45px;
 		padding-bottom: 50px;
 	}
-	
+
 	.line-row .hr {
 		background-color: #bec0bf;
 		height: 5px;
 		margin: 0 auto;
 		width: 33%;
 	}
-	
+
 	.subtitle-row {
 		font-size: 35px;
 		padding-bottom: 40px;
 		padding-top: 40px;
 	}
-	
+
 	.content-row {
 		padding-top: 45px;
 	}
-	
+
 	.content-row i,
 	#about-row-5 i {
 		display: block;
@@ -344,45 +344,45 @@ body {
 		max-height: 100%;
 		max-width: 100%;
 	}
-	
+
 	.content-row h2 {
 		font-size: 28px;
 		padding-bottom: 40px;
 	}
-	
+
 	.content-row h4 {
 		font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 		font-size: 20px;
 		font-weight: 300;
 	}
-	
+
 	i {
 		font-size: 80px;
 		color: white;
 	}
-	
+
 
 @media (max-width: 767px) {
 	.title-row {
 		font-size: 34px;
 		padding-bottom: 33px;
 	}
-	
+
 	.subtitle-row {
 		font-size: 26px;
 		padding-bottom: 26px;
 		padding-top: 26px;
 	}
-	
+
 	.content-row {
 		padding-top: 29px;
 	}
-	
+
 	.content-row h2 {
 		font-size: 24px;
 		padding-bottom: 26px;
 	}
-	
+
 	.content-row h4 {
 		font-size: 20px;
 	}
@@ -425,7 +425,7 @@ body {
 		background-image: none;
 	}
 }
-	
+
 	#slide-6 .line-row .hr {
 		background-color: #4e4e4e;
 		color: #4e4e4e;
@@ -442,30 +442,30 @@ body {
 		margin-top: 1em;
 	}
 }
-	
+
 	#contact-row-4 {
 		padding-top: 125px;
 	}
-	
+
 	#contact-row-4 .col-12 {
 		height: 175px;
 		overflow: hidden;
 		padding-top: 20px;
 		transition: all ease-in .5s;
 	}
-	
+
 	#contact-row-4 img {
 		display: block;
 		margin: 0 auto;
 		max-height: 100%;
 		max-width: 100%;
 	}
-	
+
 	#contact-row-4 .col-12:hover {
 		height: 175px;
 		padding-top: 0;
 	}
-	
+
 	#contact-row-4 .col-12 .hover-text {
 		display: none;
 		font-size: 20px;
@@ -568,3 +568,10 @@ body {
 	cursor: pointer;
 }
 .website-footer{font-size:12px; color:#aaa; text-align:center;}
+
+#slide-2 .icon{color:#AEEFE2}
+#slide-3 .icon{color:#FFD1CC}
+#slide-4 .icon{color:#FFE6B1}
+
+
+span.supernew{color:red; font-weight:600; font-size:10px;}
